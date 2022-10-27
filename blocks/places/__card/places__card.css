@@ -1,0 +1,27 @@
+.places__card {
+  display: grid;
+  grid-template-columns: calc(50.8% - 40px) 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+  align-self: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1124px ){
+  .places__card {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 896px ){
+  .places__card {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 544px ){
+  .places__card {
+  grid-template-columns: 1fr;
+  row-gap: 32px;
+  }
+}

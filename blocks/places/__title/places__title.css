@@ -1,0 +1,27 @@
+.places__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.05;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .places__title {
+  font-size: 42px;
+  line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .places__title {
+  font-size: 32px;
+  }
+}
+
+
+@media screen and (max-width: 544px){
+  .places__title {
+  padding-left: 16px;
+  padding-right: 16px;
+  }
+}
